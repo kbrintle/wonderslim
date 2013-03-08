@@ -1,0 +1,109 @@
+.clear {
+    clear: both;
+    line-height: 0;
+}
+.footer-container{
+    margin: 0px;
+    background: url(../images/dietdirect/footer-bg.gif) repeat-x left 40px;
+    padding: 0px;
+}
+.footer-top{
+    background: url(../images/dietdirect/footer_top_line.png) repeat-x;
+    height: 52px;
+    font-family: Georgia;
+    font-size: 20px;
+    color:#6CB255;
+}
+.footer, .footer-top DIV  {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.footer-top div {
+    font-family: Georgia;
+    font-size: 18px;
+    color:#6CB255;
+    text-align: right;
+    line-height: 52px;
+}
+.footer-top div span {
+    font-family: Arial;
+    color: #a9e5fa;
+}
+#newsletter-validate-detail {
+    display: block;
+    margin-top: -1px;
+    float: left;
+}
+.form-subscribe {
+    width: 210px;
+    padding: 0 15px;
+    background: url(../images/dietdirect/offers-form-bg.gif) repeat-y left top;
+    color: #a9e5fa;
+    font-size: 11px;
+    font-family: Arial;
+}
+
+.form-subscribe-header {
+    color: #6CB255;
+    font-family: Georgia;
+    font-size: 31px;
+    font-weight: normal;
+    margin-top: -37px;
+    min-height: 52px;
+    text-transform: none;
+    line-height: 34px;
+}
+
+.form-subscribe .v-fix {
+    margin: 5px 0px;
+}
+.form-subscribe-foot {
+    height: 12px;
+    background: url(../images/dietdirect/offers-form-bg-foot.gif) no-repeat left top;
+}
+.form-subscribe button.button {
+    float:none;
+}
+.footer-links {
+    float: right;
+    margin: 20px 0 0 0;
+}
+.footer-links-set {
+    float: left;
+}
+.footer-links-set H4 {
+    color: #76AC42;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Georgia;
+}
+.footer-links-set UL {
+    width: 160px;
+}
+.footer-links-set A {
+    color: #0397D6;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-links-set UL LI A {
+    color: #555;
+}
+
+.footer .copyright {
+    text-align: center;
+}
+.footer .copyright p{
+    padding: 5px 15px;
+    font-size: 11px;
+}
+
+.footer .secur  {
+    margin: 10px 0px 25px 30px;
+}
+
+.footer .secur TD {
+    text-align: center;
+    vertical-align: middle;
+}
