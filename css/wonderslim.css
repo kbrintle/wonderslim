@@ -41,7 +41,7 @@ p{text-align: left;}
 }
 
 div.menu {
-    background: url('../images/navigation_bkg.gif') left top repeat-x;
+
 }
 
 
@@ -53,7 +53,7 @@ a.button span span,
 span.button span span {
     background: #ffc328;
     color:#5c5c5c;
-    text-shadow: #666 1px -1px 1px;
+    text-shadow: none !important;
 
 }
 
@@ -65,29 +65,39 @@ a.button:hover span span {
     -webkit-box-shadow: 0 1px 2px #53600F;
 }
 
+.gold-btn span span{
+    background:#8c794d !important;
+}
+.yellow-btn span span{
+    background:#fec943 !important;
+}
+.teal-btn span span{
+    background:#23a1a5 !important;
+}
+
 /******************************************************
 *   ICONS
 *******************************************************/
 i.chat{
-    background: url('/img/icons/chat.png');
+    background: url('../img/icons/chat.png');
     width:15px;
     height:12px;
     display: block;
 }
 i.onetenpercent{
-    background: url('/img/home/callouts/110percent.png');
+    background: url('../img/home/callouts/110percent.png');
     width:104px;
     height:91px;
     display: block;
 }
 i.savings{
-    background: url('/img/home/callouts/savings.png');
+    background: url('../img/home/callouts/savings.png');
     width:79px;
     height:79px;
     display: block;
 }
 i.people{
-    background: url('/img/home/callouts/people.png');
+    background: url('../img/home/callouts/people.png');
     width:131px;
     height:221px;
     display: block;
@@ -170,7 +180,7 @@ i.people{
 *   HOME
 *******************************************************/
 #feature{
-    background: url('/img/home/bg/feature-bg.png') repeat-x;
+    background: url('../img/home/bg/feature-bg.png') repeat-x;
     margin:30px 0 14px 0;
     position: relative;
 }
@@ -192,7 +202,7 @@ i.people{
 }
 
 .calloutOuterContainer .callout-container-top{
-    height:236px;
+    height:222px;
 
 }
 .calloutOuterContainer .callout-container-bottom{
@@ -207,7 +217,6 @@ i.people{
     height: 270px;
     width:980px;
 }
-
 .callout-container .callouts li{
     float:left;
     width:300px;
@@ -241,12 +250,44 @@ i.people{
 .callout-container .callouts li .callout-bottom p{
     height:104px;
 }
+.callout-container .callouts li .callout-bottom .button span{
+    color:#fff !important;
+}
 
-/******************************************************
+
+.solution{
+    margin-top: 34px;
+}
+.solution p{
+    color:#181818;
+}
+.solution .callouts li{
+    text-align: left;
+    box-shadow: none;
+    padding:0 22px 0 22px;
+    width:258px;
+    margin-right: 20px;
+}
+.solution .callouts li:first-child{
+    border-right:1px solid #ffc73e;
+    padding-right:28px;
+}
+.solution .callouts li h3{
+    color:#6a747c;
+    text-align: right;
+    font-size:20px;
+
+}
+
+
+/*******************************\***********************
 *   FOOTER
 *******************************************************/
 .footer-container{
 
+}
+.footer-links-set h4{
+    color:#0397D6;
 }
 .form-subscribe-foot,
 .form-subscribe,
