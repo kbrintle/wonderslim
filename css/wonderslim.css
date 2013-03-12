@@ -278,8 +278,32 @@ i.people{
     font-size:20px;
 
 }
-
-
+.category-description{
+  margin-bottom:16px;
+}
+.col-main{
+    width:760px;
+}
+.col-left.sidebar{
+    width:200px;
+}
+.sidebar .block-layered-nav{
+    background-color: #eae6dc;
+}
+.sidebar .block-layered-nav dt {
+    color:#0397D6;
+}
+div.yellow_bar {
+    background: #ffc641;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    height: 28px;
+    padding-top: 7px;
+    padding-left: 10px;
+    width: 98.75%;
+    text-shadow: 1px #999;
+}
 /*******************************\***********************
 *   FOOTER
 *******************************************************/
