@@ -278,6 +278,10 @@ i.people{
     font-size:20px;
 
 }
+/*******************************\***********************
+*   CATEGORY PAGE
+*******************************************************/
+
 .category-description{
   margin-bottom:16px;
 }
@@ -303,6 +307,108 @@ div.yellow_bar {
     padding-left: 10px;
     width: 98.75%;
     text-shadow: 1px #999;
+}
+.category-products .product-name{
+    max-width:250px;
+}
+.category-products .product-name a {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.products-list .description{
+    width:330px;
+}
+.products-list .product-image {
+    margin:0;
+}
+.products-list .add_to_compare{
+    float:right !important;
+
+}
+.products-list .add_to_compare .ratings{
+    float:right;
+}
+.products-list .add_to_compare .ratings .amount a{
+    color:#1eabb8 !important;
+}
+.products-list .our_price{
+    float: right !important;
+    width:auto;
+}
+.products-list .our_price .btn-cart{
+    float:right;
+}
+.products-list .price-box{
+    float:right;
+}
+.products-list .btn-cart{
+    float:right;
+}
+.products-list .btn-cart span span{
+    padding:5px !important;
+}
+.products-list .quantities{
+    float:left;
+    margin:6px 6px 0 4px;
+}
+.products-list .add-to-links{
+    float:right;
+}
+.products-list .cart-attributes{
+    float:right;
+    padding-bottom:20px;
+    border-bottom:1px #d4d4d4 solid;
+}
+
+.products-list .cart-attributes{
+
+}
+.products-list .quantities input{
+    width:44px;
+    height:24px;
+    background-color: #eeeeee;
+    float:left;
+    margin-right: 6px;
+}
+.products-list .quantities span.qty-adjust{
+    float:left;
+    padding-top: 2px;
+}
+.products-list .quantities a{
+    width:12px;
+    height:6px;
+    display: block;
+}
+.products-list .quantities .qty-add{
+    margin-bottom:6px;
+    background: url('../img/btn/qty-up.png') top left no-repeat;
+}
+.products-list .quantities .qty-sub{
+    background: url('../img/btn/qty-down.png') bottom left no-repeat;
+}
+
+.products-list .quantities .qty-add:hover{
+    background-position:bottom left;
+}
+.products-list .quantities .qty-sub:hover{
+    background-position:top left;
+}
+
+
+/*******************************\***********************
+*   PRODUCT DETAIL
+*******************************************************/
+.product-main-info .special-price .price-label,
+.product-main-info .special-price .price{
+    color:#1eabb8 !important;
+}
+#current {
+    background-color: #9dd2d7;
+}
+.collateral-tabs .active span,
+.ratings .rating-links a {
+    color: #9dd2d7;
 }
 /*******************************\***********************
 *   FOOTER
